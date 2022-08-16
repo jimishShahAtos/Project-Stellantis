@@ -1,11 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './pages/home/home.component';
+import { HomeComponent } from './home/home.component';
+import { PagesComponent } from './pages.component';
+
+
 
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    PagesComponent
   ],
   imports: [
     CommonModule
@@ -14,4 +18,4 @@ import { HomeComponent } from './pages/home/home.component';
     HomeComponent
   ]
 })
-export class DocgAppModule { }
+export class PagesModule { }

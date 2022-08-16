@@ -5,8 +5,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DocgAppModule } from './docg-app/docg-app.module';
+
 import { UsersModule } from './users/users.module';
+import { PagesModule } from './docg-app/pages/pages.module';
 
 @NgModule({
   declarations: [
@@ -18,8 +19,7 @@ import { UsersModule } from './users/users.module';
     HttpClientModule,
     OAuthModule.forRoot(),
     UsersModule,
-    DocgAppModule,
-    DocgAppModule
+    PagesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

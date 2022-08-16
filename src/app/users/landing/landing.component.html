@@ -1,4 +1,4 @@
-<div class="w-100 h-100 position-absolute">
+<div class="h-100 position-absolute landingPage">
     <div class="h-100 bgLanding">
         <div class="row justify-content-md-center">
             <!-- LOGO  -->
@@ -22,7 +22,7 @@
         <div class="row justify-content-md-center px-5 mt-5">
             <div class="card w-100 col-md-auto text-white col mx-5 bg-transparent border-0 border-bottom rounded-0">
                 <div class="card-body text-end text-white pe-0 pb-0">
-                    <button type="button" class="btn btn-link fst-italic mb-0 text-white text-decoration-none pe-0">
+                    <button type="button" *ngIf="!token" class="btn btn-link fst-italic mb-0 text-white text-decoration-none pe-0" (click)="login()">
                         IoT Account
                         <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
                     </button>

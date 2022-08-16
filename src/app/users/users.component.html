@@ -1,1 +1,6 @@
-<docg-landing></docg-landing>
+<docg-landing *ngIf="!token"></docg-landing>
+<div class="text-end py-3 px-5">
+    <button *ngIf="token" (click)="logout()" class="btn btn-link">Logout</button>
+</div>
+
+<router-outlet *ngIf="token"></router-outlet>

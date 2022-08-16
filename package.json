@@ -25,6 +25,7 @@
     "@nebular/security": "^9.0.3",
     "@nebular/theme": "^9.0.3",
     "@swimlane/ngx-charts": "^20.1.0",
+    "angular-oauth2-oidc": "^13.0.1",
     "angular2-chartjs": "^0.5.1",
     "bootstrap": "^5.2.0",
     "chart.js": "^3.8.2",

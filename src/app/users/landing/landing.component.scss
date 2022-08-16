@@ -1,9 +1,16 @@
 .row{
-    --bs-gutter-x: 0;
+    --bs-gutter-x:0;
+}
+.landingPage{
+    width: 100%;
 }
 .bgLanding{
     background: #252B3A url('/assets/images/dotted_Bg.png') no-repeat 100% 100%;    
 }
 .card.banner{
     background: #1F242D;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: none;
 }
